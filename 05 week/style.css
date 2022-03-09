@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #BA55D3, #4682B4);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+button {
+    background-color:#DA70D6;
+    border-radius: 10%;
+    margin-left: 20px;
+    width: 70px;
+    height: 35px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+input {
+    width: 500px;
+    height: 35px;
+    background-color: #E0FFFF;
+}
+
+button.deleteButtonClass{
+    background-color: #00CED1;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 265px;
+}
+
+main {
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+}
+
+div.accountDetailsClass {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+p {
+    padding: 10px;
+}
+
+div.textPlacementBorder {
+    background-color:	#E0FFFF;
+    padding: 5px;
+    width: 545px;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow-wrap: break-word
+}
+div {
+    width: 600px;
+}
+div.commentBox {
+    border: 2px solid #8B008B;
+    margin-top: 5px;
+}
